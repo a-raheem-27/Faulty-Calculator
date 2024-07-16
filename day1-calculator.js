@@ -1,3 +1,5 @@
+for( let i = 1 ; i<=10 ; i++){
+
 let a = +prompt("Enter first number");
 let b = +prompt("Enter second number");
 let c = prompt("Which operation you want to perform? Enter 1 for Addition, 2 for subtraction, 3 for multiplication, 4 for division and 5 for modulus")
@@ -59,3 +61,5 @@ function calculator(x,y,z){
 
 
 calculator(a,b,c);
+
+}    
